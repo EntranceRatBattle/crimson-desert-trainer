@@ -1,0 +1,26 @@
+[project]
+name = "crimson-desert-trainer"
+version = "1.4.2"
+description = "Open-source Windows trainer for Crimson Desert — godmode, ESP, teleport, and more."
+requires-python = ">=3.11"
+authors = [{ name = "crimson-desert-trainer contributors" }]
+license = { text = "MIT" }
+dependencies = [
+    "pywin32>=306",
+    "pymem>=1.13",
+    "keyboard>=0.13.5",
+    "customtkinter>=5.2",
+    "pyyaml>=6.0",
+    "loguru>=0.7",
+    "numpy>=1.26",
+]
+
+[project.scripts]
+crimson-trainer = "crimson_trainer.bootstrap:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
