@@ -1,0 +1,17 @@
+{
+  "latest_build": "1.0.9",
+  "compatible": ["1.4.2", "1.4.1", "1.4.0"],
+  "builds": {
+    "1.0.9": {
+      "player_base": 142606336,
+      "health": 412,
+      "stamina": 456,
+      "gold": 2048,
+      "skill_points": 2100,
+      "entity_list": 142700544,
+      "entity_stride": 64,
+      "camera_matrix": 143200256,
+      "checksum": "PLACEHOLDER"
+    }
+  }
+}
