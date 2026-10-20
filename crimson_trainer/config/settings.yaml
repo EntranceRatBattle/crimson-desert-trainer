@@ -1,0 +1,21 @@
+trainer:
+  version: "1.4.2"
+  game_exe: "CrimsonDesert.exe"
+  require_admin: true
+
+overlay:
+  enabled: false
+  hostile_color: "#ff2b2b"
+  neutral_color: "#2bff88"
+  refresh_hz: 60
+
+hotkeys:
+  godmode: "f1"
+  infinite_stamina: "f2"
+  one_hit: "f3"
+  esp: "f4"
+
+logging:
+  level: "INFO"
+  file: "logs/trainer.log"
+  rotation_mb: 2
